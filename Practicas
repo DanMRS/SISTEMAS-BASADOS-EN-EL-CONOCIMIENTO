@@ -1,0 +1,111 @@
+Print (" // \ ")
+print (" //__\ ")
+print ("|| || ")
+print ("||__|| ")
+
+
+
+
+nombre = input (“ingresa tu nombre: “)
+telefono = input (“ingresa tu telefono: “)
+
+email = input (“ingresa tu email: ”)
+print (nombre + teléfono + email)
+
+
+
+
+r1 = float (input("ingresa el valor de la resistencia 1: "))
+r2 = float (input("ingresa el valor de la resistencia 2: "))
+rt = 1/ ((1/r1)+(1/r2))
+print ("total: ",rt)
+
+
+
+
+a1 = float(input("ingresa fila 1 columna 1: "))
+a2 = float(input("ingresa fila 2 columna 1: "))
+b1 = float(input("ingresa fila 1 columna 2: "))
+b2 = float(input("ingresa fila 2 columna 1: "))
+x = a1*b2
+y = b1*a2
+tot = (x)-(y)
+print ("resultado: ", tot)
+
+
+
+numero_como_cadena = input ("Escribe un numero: ")
+numero = float(numero_como_cadena)
+if numero == 0:
+print("Cero")
+elif numero < 0:
+print ("negativo")
+else:
+print ("Positivo")
+
+
+
+
+
+def _cuentas(prestamo,meses):
+cuota=prestamo/meses
+return cuota
+
+def _Prestamo():
+prestamo= input("Monto de tu prestamo? ")
+meses= input("En cuantos meses deseas pagar? ")
+print ("Monto de pago por mes es: ",_cuentas(prestamo,meses))
+
+edad= int (input ("Dame tu edad: "))
+if edad >= 18:
+ingresos=int(input("Dame tus ingresos: "))
+egresos=int(input("Dame tus gastos: "))
+if ingresos >= egresos:
+_Prestamo()
+else:
+print("Sus ingresos deben ser mayores.")
+
+else:
+print ("No eres mayor de edad.")
+
+
+
+
+
+
+
+
+row = int(input("ingresa el numeor de extrellas"))
+for i in range (row):
+print (" *"*(i+1))
+
+for j in range (row):
+print (" *"*(row-j-1))
+
+
+
+
+
+
+
+palabra = []
+palabra = input ("ingresa la palabra que quieres invertir:")
+palabra2 = ""
+
+for i in palabra:
+palabra2 = i + palabra2
+print (palabra2)
+
+
+
+
+
+
+
+
+n=0
+print (n)
+for n in range(7):
+if n%3!=0:
+print (n)
+
